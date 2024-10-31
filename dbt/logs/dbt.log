@@ -1,0 +1,28 @@
+[0m22:23:57.618733 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000153E6EA27B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000153E6A41950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000153E9827ED0>]}
+
+
+============================== 22:23:57.631180 | 1c26b596-9485-4815-9525-210fd6d1684e ==============================
+[0m22:23:57.631180 [info ] [MainThread]: Running with dbt=1.8.8
+[0m22:23:57.633441 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Checkout\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init build_mau', 'send_anonymous_usage_stats': 'True'}
+[0m22:23:57.734062 [debug] [MainThread]: Starter project path: C:\Users\Checkout\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m22:23:57.801172 [info ] [MainThread]: 
+Your new dbt project "build_mau" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:23:57.803272 [info ] [MainThread]: Setting up your profile.
+[0m22:25:50.956509 [info ] [MainThread]: Profile build_mau written to C:\Users\Checkout\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:25:50.959328 [debug] [MainThread]: Command `dbt init` succeeded at 22:25:50.958988 after 113.66 seconds
+[0m22:25:50.960260 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000153EB8C6650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000153EA0839B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000153EB909150>]}
+[0m22:25:50.961221 [debug] [MainThread]: Flushing usage events
